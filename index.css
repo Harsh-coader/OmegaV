@@ -1,0 +1,131 @@
+*{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    transition: 0.5s;
+}
+body{
+    background-color: #444;
+    background-image: ();
+}
+h1{
+    color: #ffa500;
+    font-size: 62px;
+    font-weight: 300;
+    padding: 24px;
+    text-align: center;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    padding: 36px;
+    transition: 0.6s;
+}
+nav li a:hover{
+    color: #ffa500;
+}
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    align-items: center;
+    margin-right: 900px;
+}
+nav ul button{
+    padding: 12px 24px;
+    border-radius: 12px;
+    color: #000;
+    background-color: #ffa500;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border: none;
+    transition: 0.5s;
+    font-size: 15px;
+}
+nav ul button:hover{
+    color: #000;
+    border: none;
+    background: transparent;
+    box-shadow: 0px 5px 50px 0px #ffa500 inset,
+    0px 5px 50px 0px #ffa500,
+    0px 5px 50px 0px #ffa500 inset,
+    0px 5px 50px 0px #ffa500;
+}
+.btn{
+    padding: 20px 80px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 23px;
+    color: #fff;
+    transition: 0.5s;
+    font-size: 15px;
+    font-weight: 600;
+}
+.btn:hover{
+    color: #000;
+    border: 1px solid #fff;
+    box-shadow: 0px 5px 50px 0px #ffa500 inset,
+    0px 5px 50px 0px #ffa500,
+    0px 5px 50px 0px #ffa500 inset,
+    0px 5px 50px 0px #ffa500;
+}
+main{
+    min-height: 100vh;
+}
+footer{
+    background-color: transparent;
+}
+.box h5{
+    color: #fff;
+    font-weight: 200;
+}
+.get{
+    color: #ffa500;
+    font-size: normal;
+    font-weight: 400;
+}
+.lorem{
+    color: #fff;
+}
+
+.news{
+    text-align: center;
+    font-weight: 600;
+    color: #aaa;
+}
+pre a{
+    color: lightblue;
+    text-decoration: none;
+    transition: 0.2s;
+}
+pre a:hover{
+    text-decoration: rgb(52, 193, 240) underline;
+    color: rgb(52, 193, 240);
+}
+pre{
+    color: #ffa500;
+}
+footer div pre{
+    color: #fff;
+}
+a i{
+    padding: 5px;
+}
+@media (max-width: 450px) {
+    
+}
+
